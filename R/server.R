@@ -79,8 +79,8 @@ function(input, output, session) {
       theme_minimal() +
       geom_line(aes(group = 1), alpha = .5) +
       geom_point(
-        aes(fill = violation,
-            size = 3),
+        aes(fill = violation),
+        size= 3,
         alpha = .75,
         shape = 21,
         col = rgb(0, 0, 0, .2)
@@ -119,18 +119,6 @@ function(input, output, session) {
 }
 }
 
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Install Package:           'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
 
 hello <- function() {
   print("Hello, world!")
