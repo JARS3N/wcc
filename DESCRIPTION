@@ -1,0 +1,14 @@
+Package: wcc
+Type: Package
+Title: wcc
+Version: 0.1.0
+Author: JARS3N
+Maintainer: JARS3N <JARS3N@GMAIL.COM>
+Description: wetqc control charts with 3 sigma cl
+Imports:
+        shiny,
+        dplyr,
+        ggplot2
+License: closed
+Encoding: UTF-8
+LazyData: true
