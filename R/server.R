@@ -120,6 +120,3 @@ function(input, output, session) {
 }
 
 
-hello <- function() {
-  print("Hello, world!")
-}
